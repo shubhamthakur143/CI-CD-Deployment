@@ -1,0 +1,25 @@
+pipeline {
+  agent any
+    stages {
+      stage "Pull-Job" {
+        steps {
+          
+        }
+      }
+      stage "Pull-Job" {
+        steps {
+
+        }
+      }
+      stage "Pull-Job" {
+        steps {
+
+        }
+      }
+      stage "Pull-Job" {
+        steps {
+
+        }
+      }
+  }
+}
