@@ -3,17 +3,18 @@ pipeline {
     stages {
       stage "Pull-Job" {
         steps {
-          
+          git branch: 'main', url: 'https://github.com/shubhamthakur143/Docker-Project.git'
         }
       }
-      stage "Pull-Job" {
+      stage "Frontend-image-build" {
         steps {
-
+        sh ''' cd frontend
+               docker build -m
         }
       }
-      stage "Pull-Job" {
+      stage "Backtend-image-build" {
         steps {
-
+        
         }
       }
       stage "Pull-Job" {
